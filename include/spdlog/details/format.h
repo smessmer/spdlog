@@ -27,7 +27,9 @@
 
 #ifndef FMT_FORMAT_H_
 #define FMT_FORMAT_H_
-#define FMT_HEADER_ONLY
+
+//(change by smessmer): Don't use FMT_HEADER_ONLY because biicode also links the format.cc file
+//#define FMT_HEADER_ONLY
 
 #include <stdint.h>
 
